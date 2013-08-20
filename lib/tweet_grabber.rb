@@ -16,7 +16,7 @@ twitter_oauth_token_secret = ""
 # MongoDB config
 db_to_use = ""                          # Example: tweet_database
 collection_to_use = ""                  # Example: tweets
-mongo_replicaset_members = "['','']"    # Example: ['192.168.1.2:27017', '192.168.1.3:27017', '192.168.1.4:27017']
+mongo_replicaset_members = ['','']      # Example: ['192.168.1.2:27017', '192.168.1.3:27017', '192.168.1.4:27017']
 
 # CSV file
 csv_of_tweeters = ""                    # Include the full path here

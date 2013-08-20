@@ -28,7 +28,7 @@ Installation
 Assuming that you have a [MongoDB replication set](http://docs.mongodb.org/manual/replication/) up and running, have created a database and a collection, and also have Ruby and Rails installed...
 
 1. Create [a Twitter application(https://dev.twitter.com/) to use for your TweetGrabber
-2. Create an oAuth token in your Twitter application, and save all of the credentials
+2. Create an oAuth token in your Twitter application by clicking the "Create my access token" button at the bottom of your app page and save all of the credentials (from the Details and OAuth tool tabs)
 3. Download the TweetGrabber source and unpack into a directory
 4. Open lib/tweetgrabber.rb, and update the configuration variables in the "Config Variables" section
 5. Create a CSV file to hold the Twitter information for the people you want to follow. There's an example file you can use in the root folder. If you need to get a Twitter ID for a user account, I suggest using [mytwitterid.com](http://mytwitterid.com/).
@@ -50,6 +50,7 @@ Notes
 =====
 
 1. When using the hashtag_grabber.rb script, I've found it unnecessary to use the '#' part of a hashtag in order to actually follow that hashtag.
+2. When naming your database and collection in Mongo, I *highly* recommend using words separated by underscores, such as "tweet_database".
 
 
 Need Help?
